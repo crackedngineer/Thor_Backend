@@ -27,7 +27,7 @@ googleapis-common-protos==1.55.0
 hiredis==2.0.0
 httplib2==0.20.4
 hyperlink==21.0.0
-idna==3.3
+idna==3.7
 incremental==21.3.0
 inflection==0.5.1
 itypes==1.2.0
