@@ -51,7 +51,7 @@ python-decouple==3.5
 python-jwt==2.0.1
 pytz==2021.3
 PyYAML==6.0
-requests==2.11.1
+requests==2.32.2
 requests-oauthlib==1.3.0
 requests-toolbelt==0.7.0
 rsa==4.8
@@ -67,3 +67,6 @@ tzdata==2021.5
 uritemplate==4.1.1
 urllib3==1.26.8
 zope.interface==5.4.0
+future>=0.18.3 # not directly required, pinned by Snyk to avoid a vulnerability
+grpcio>=1.53.2 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
